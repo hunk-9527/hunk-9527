@@ -1,16 +1,21 @@
-## Hi there 👋
+# 你好，我是 Huang Hao 👋
 
-<!--
-**hunk-9527/hunk-9527** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  **ADAS / 智能驾驶仿真测试** —— 5 年+ 经验（SIL / HIL / 端到端仿真）。
+  目前在做的事：把仿真测试的完整链路自己动手走一遍，并把过程公开出来。
 
-Here are some ideas to get you started:
+  `被测系统 → 测试用例 → 批量执行 → 指标分析 → 结论输出`
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  ## 项目
+
+  | 仓库 | 说明 |
+  |---|---|
+  | [acc-sim](https://github.com/hunk-9527/acc-sim) | 简化 ACC 被测系统 + pytest 用例 + 批量评测平台 +
+  评测报告。含一次完整缺陷分析：把缺陷分成「调参能缓解」与「调参无效」两类，并识别出"未碰撞 ≠ 通过"的边界用例盲区。**进行中**：接入
+  CARLA 闭环仿真 |
+
+  ## 方向
+
+  - **模型评测** —— 端到端 / 世界模型的评测方法与评测门禁
+  - 工具链：CARLA · Python · pytest · pandas · matplotlib
+
+  📫 联系方式：951814906@qq.com
